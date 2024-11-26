@@ -1,7 +1,5 @@
 #include <iostream>
-
 typedef long long ll;
-
 struct Node {
     ll val;       // Aggregated value of the segment
     ll lazy;      // Lazy propagation value
