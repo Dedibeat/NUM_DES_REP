@@ -20,3 +20,16 @@ uint get_at(int pos) {
     }
     return ret;
 }
+/*
+| Method                   || Time Complexity      |
+| ------------------------ || -------------------- |
+| `operator+`              || **O(1)** (amortized) |
+| `insert(pos, str)`       || **O(log n + m)**     |
+| `erase(pos, len)`        || **O(log n + l)**     |
+| `replace(pos, len, str)` || **O(log n + l + m)** |
+| `substr(pos, len)`       || **O(log n + l)**     |
+| `c_str()`                || **O(n)**             |
+| `at(pos)`                || **O(log n)**         |
+| `size()`                 || **O(1)**             |
+| `copy(buf, n, pos)`      || **O(l)**             |
+*/
